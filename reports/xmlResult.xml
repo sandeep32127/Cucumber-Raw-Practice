@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.631" tests="3" skipped="0" failures="0" errors="0">
+<testcase classname="Verifying Uber Cab" name="User selects Sedan" time="0.051">
+<system-out><![CDATA[
+Given User launches Uber App................................................passed
+And User enters login creds.................................................passed
+And User lands on home page.................................................passed
+Then User selects destination...............................................passed
+Then User selects "Sedan" for trip A........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying Uber Cab" name="User selects SUV" time="0.014">
+<system-out><![CDATA[
+Given User launches Uber App................................................passed
+And User enters login creds.................................................passed
+And User lands on home page.................................................passed
+Then User selects destination...............................................passed
+Then User selects "SUV" for trip B..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying Uber Cab" name="User selects hatchback" time="0.005">
+<system-out><![CDATA[
+Given User launches Uber App................................................passed
+And User enters login creds.................................................passed
+And User lands on home page.................................................passed
+Then User selects destination...............................................passed
+Then User selects "hatchback" for trip C....................................passed
+]]></system-out>
+</testcase>
+</testsuite>
